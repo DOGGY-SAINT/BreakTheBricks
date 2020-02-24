@@ -31,12 +31,16 @@
 *.out
 *.app
 
-#cocos2dx
+#cocos2dx(for this)
 /proj.android
 /proj.ios_mac
 /proj.linux
-/proj.win32/Debug.win32
+
+#vs
 /proj.win32/.vs
+
+#debug(usually big)
+/proj.win32/Debug.win32
 /cocos2d/external/recast/proj.win32/Debug.win32
 /cocos2d/cocos/2d/Debug.win32
 /cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32
