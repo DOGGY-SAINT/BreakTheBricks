@@ -3,6 +3,11 @@
 
 #include "cocos2d.h"
 
+#define BALL 0
+#define PLATFORM 1
+#define BRICK 2
+#define WALL 3
+
 USING_NS_CC;
 
 class PlayScene : public Scene
